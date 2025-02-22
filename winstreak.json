@@ -1,0 +1,510 @@
+{
+  "balancer_config": {
+    "min_days_count": 16,
+    "target_weekdays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "max_days_distance": 28,
+    "max_stages_count_to_decrease_balance_index": 5,
+    "events_in_row_to_decrease_balance_index": 2,
+    "max_stages_count_to_retain_balance_index": 9,
+    "min_absence_months_count": 6,
+    "average_win_grinds_count_to_difficulty_index": [
+      0,
+      6.8,
+      8,
+      10.4
+    ]
+  },
+  "difficulty_balance": [
+    {
+      "lives_count": 3,
+      "stages": [
+        {
+          "grinds": 1,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 300},
+            {"id": "InfiniteBoosterLines", "amount": 300},
+            {"id": "InfiniteBoosterBombs", "amount": 300}
+          ]
+        },
+        {
+          "grinds": 2,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 600},
+            {
+              "id": "TLE_CupidsTroubles_2025_flowerhairpin",
+              "amount": 20
+            },
+            {"id": "InfiniteBoosterBombs", "amount": 300}
+          ]
+        },
+        {
+          "grinds": 2,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 600},
+            {"id": "InfiniteBoosterLines", "amount": 300},
+            {"id": "softCurrency", "amount": 100}
+          ]
+        },
+        {
+          "grinds": 2,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 600},
+            {"id": "BoosterLines", "amount": 1},
+            {"id": "InfiniteBoosterBombs", "amount": 300}
+          ]
+        },
+        {
+          "grinds": 2,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 600},
+            {"id": "InfiniteBoosterLines", "amount": 300},
+            {"id": "shuffler", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 3,
+          "rewards": [
+            {"id": "randomObjectiveBreaker", "amount": 1},
+            {
+              "id": "TLE_CupidsTroubles_2025_flowerhairpin",
+              "amount": 20
+            },
+            {"id": "BoosterBombs", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 3,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 600},
+            {"id": "extraSteps", "amount": 1},
+            {"id": "softCurrency", "amount": 150}
+          ]
+        },
+        {
+          "grinds": 3,
+          "rewards": [
+            {"id": "randomObjectiveBreaker", "amount": 1},
+            {
+              "id": "TLE_CupidsTroubles_2025_flowerhairpin",
+              "amount": 25
+            },
+            {"id": "shuffler", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 3,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {"id": "InfiniteBoosterLines", "amount": 600},
+            {"id": "InfiniteBoosterBombs", "amount": 600},
+            {
+              "id": "InfiniteBoosterColorBomb",
+              "amount": 600
+            }
+          ]
+        },
+        {
+          "grinds": 4,
+          "rewards": [
+            {"id": "randomObjectiveBreaker", "amount": 1},
+            {"id": "shuffler", "amount": 1},
+            {"id": "swapper", "amount": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "lives_count": 3,
+      "stages": [
+        {
+          "grinds": 1,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 480},
+            {"id": "InfiniteBoosterLines", "amount": 480},
+            {"id": "InfiniteBoosterBombs", "amount": 480}
+          ]
+        },
+        {
+          "grinds": 3,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 600},
+            {
+              "id": "TLE_CupidsTroubles_2025_flowerhairpin",
+              "amount": 30
+            },
+            {"id": "InfiniteBoosterBombs", "amount": 600}
+          ]
+        },
+        {
+          "grinds": 3,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {"id": "InfiniteBoosterLines", "amount": 600},
+            {"id": "softCurrency", "amount": 150}
+          ]
+        },
+        {
+          "grinds": 4,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {"id": "BoosterLines", "amount": 1},
+            {"id": "InfiniteBoosterBombs", "amount": 600}
+          ]
+        },
+        {
+          "grinds": 4,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {"id": "InfiniteBoosterLines", "amount": 600},
+            {"id": "shuffler", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 4,
+          "rewards": [
+            {"id": "randomObjectiveBreaker", "amount": 1},
+            {
+              "id": "TLE_CupidsTroubles_2025_flowerhairpin",
+              "amount": 30
+            },
+            {"id": "BoosterBombs", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 5,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {"id": "extraSteps", "amount": 1},
+            {"id": "InfiniteBoosterLines", "amount": 600}
+          ]
+        },
+        {
+          "grinds": 5,
+          "rewards": [
+            {"id": "randomObjectiveBreaker", "amount": 1},
+            {
+              "id": "TLE_CupidsTroubles_2025_flowerhairpin",
+              "amount": 35
+            },
+            {"id": "shuffler", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 5,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {"id": "InfiniteBoosterLines", "amount": 900},
+            {"id": "InfiniteBoosterBombs", "amount": 900},
+            {
+              "id": "InfiniteBoosterColorBomb",
+              "amount": 900
+            }
+          ]
+        },
+        {
+          "grinds": 6,
+          "rewards": [
+            {"id": "randomObjectiveBreaker", "amount": 1},
+            {"id": "shuffler", "amount": 1},
+            {"id": "swapper", "amount": 1},
+            {"id": "extraSteps", "amount": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "lives_count": 3,
+      "stages": [
+        {
+          "grinds": 3,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {"id": "InfiniteBoosterLines", "amount": 600},
+            {"id": "InfiniteBoosterBombs", "amount": 600}
+          ]
+        },
+        {
+          "grinds": 3,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {
+              "id": "TLE_CupidsTroubles_2025_flowerhairpin",
+              "amount": 40
+            },
+            {"id": "InfiniteBoosterBombs", "amount": 900}
+          ]
+        },
+        {
+          "grinds": 4,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {"id": "InfiniteBoosterLines", "amount": 900},
+            {"id": "randomObjectiveBreaker", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 4,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {"id": "BoosterLines", "amount": 1},
+            {"id": "InfiniteBoosterBombs", "amount": 900}
+          ]
+        },
+        {
+          "grinds": 5,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {"id": "InfiniteBoosterLines", "amount": 900},
+            {"id": "shuffler", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 5,
+          "rewards": [
+            {"id": "randomObjectiveBreaker", "amount": 1},
+            {"id": "extraSteps", "amount": 1},
+            {"id": "BoosterBombs", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 6,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {"id": "extraSteps", "amount": 1},
+            {"id": "BoosterBombs", "amount": 1},
+            {"id": "BoosterLines", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 6,
+          "rewards": [
+            {"id": "randomObjectiveBreaker", "amount": 1},
+            {"id": "BoosterLines", "amount": 1},
+            {"id": "shuffler", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 6,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {"id": "InfiniteBoosterLines", "amount": 900},
+            {"id": "InfiniteBoosterBombs", "amount": 900},
+            {
+              "id": "InfiniteBoosterColorBomb",
+              "amount": 900
+            }
+          ]
+        },
+        {
+          "grinds": 8,
+          "rewards": [
+            {"id": "randomObjectiveBreaker", "amount": 1},
+            {"id": "shuffler", "amount": 1},
+            {"id": "swapper", "amount": 1},
+            {"id": "extraSteps", "amount": 1},
+            {"id": "BoosterBombs", "amount": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "lives_count": 3,
+      "stages": [
+        {
+          "grinds": 3,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {"id": "InfiniteBoosterLines", "amount": 600},
+            {"id": "InfiniteBoosterBombs", "amount": 600}
+          ]
+        },
+        {
+          "grinds": 4,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {
+              "id": "TLE_CupidsTroubles_2025_flowerhairpin",
+              "amount": 50
+            },
+            {"id": "InfiniteBoosterBombs", "amount": 900}
+          ]
+        },
+        {
+          "grinds": 4,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {"id": "InfiniteBoosterLines", "amount": 900},
+            {"id": "shuffler", "amount": 1},
+            {"id": "BoosterBombs", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 5,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {"id": "BoosterLines", "amount": 1},
+            {"id": "InfiniteBoosterBombs", "amount": 900},
+            {"id": "randomObjectiveBreaker", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 6,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {"id": "InfiniteBoosterLines", "amount": 900},
+            {"id": "shuffler", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 6,
+          "rewards": [
+            {"id": "randomObjectiveBreaker", "amount": 1},
+            {"id": "extraSteps", "amount": 1},
+            {"id": "BoosterBombs", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 7,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {"id": "extraSteps", "amount": 1},
+            {"id": "BoosterBombs", "amount": 1},
+            {"id": "BoosterLines", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 8,
+          "rewards": [
+            {"id": "randomObjectiveBreaker", "amount": 1},
+            {"id": "BoosterLines", "amount": 1},
+            {"id": "shuffler", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 10,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 1200},
+            {"id": "InfiniteBoosterLines", "amount": 900},
+            {"id": "InfiniteBoosterBombs", "amount": 900},
+            {
+              "id": "InfiniteBoosterColorBomb",
+              "amount": 900
+            }
+          ]
+        },
+        {
+          "grinds": 12,
+          "rewards": [
+            {"id": "randomObjectiveBreaker", "amount": 2},
+            {"id": "shuffler", "amount": 2},
+            {"id": "swapper", "amount": 1},
+            {"id": "extraSteps", "amount": 1},
+            {"id": "BoosterBombs", "amount": 2}
+          ]
+        }
+      ]
+    },
+    {
+      "lives_count": 3,
+      "stages": [
+        {
+          "grinds": 4,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 900},
+            {"id": "InfiniteBoosterLines", "amount": 600},
+            {"id": "InfiniteBoosterBombs", "amount": 600}
+          ]
+        },
+        {
+          "grinds": 5,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 1200},
+            {"id": "extraSteps", "amount": 1},
+            {"id": "InfiniteBoosterBombs", "amount": 900}
+          ]
+        },
+        {
+          "grinds": 5,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 1200},
+            {"id": "InfiniteBoosterLines", "amount": 900},
+            {"id": "shuffler", "amount": 1},
+            {"id": "BoosterBombs", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 6,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 1200},
+            {"id": "BoosterLines", "amount": 1},
+            {"id": "InfiniteBoosterBombs", "amount": 900},
+            {"id": "randomObjectiveBreaker", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 6,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 1200},
+            {"id": "InfiniteBoosterLines", "amount": 900},
+            {"id": "shuffler", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 8,
+          "rewards": [
+            {"id": "randomObjectiveBreaker", "amount": 1},
+            {"id": "extraSteps", "amount": 1},
+            {"id": "BoosterBombs", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 9,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 1500},
+            {"id": "extraSteps", "amount": 1},
+            {"id": "timeBomb", "amount": 1},
+            {"id": "BoosterLines", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 10,
+          "rewards": [
+            {"id": "randomObjectiveBreaker", "amount": 1},
+            {"id": "BoosterBombs", "amount": 1},
+            {"id": "shuffler", "amount": 1},
+            {"id": "lizardsDestroyer", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 12,
+          "rewards": [
+            {"id": "infinite_energy", "amount": 1200},
+            {"id": "InfiniteBoosterLines", "amount": 1200},
+            {"id": "InfiniteBoosterBombs", "amount": 1200},
+            {
+              "id": "InfiniteBoosterColorBomb",
+              "amount": 1200
+            },
+            {"id": "BoosterLines", "amount": 1}
+          ]
+        },
+        {
+          "grinds": 15,
+          "rewards": [
+            {"id": "randomObjectiveBreaker", "amount": 2},
+            {"id": "shuffler", "amount": 2},
+            {"id": "swapper", "amount": 1},
+            {"id": "extraSteps", "amount": 1},
+            {"id": "BoosterColorBomb", "amount": 1}
+          ]
+        }
+      ]
+    }
+  ]
+}
